@@ -1,0 +1,65 @@
+name: faster
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+
+  smooth_page_indicator:
+  carousel_pro:
+  shared_preferences:
+  dio:
+  fluttertoast:
+  list_tile_switch:
+  flutter_icons:
+  badges:
+  bloc:
+  flutter_bloc: ^8.0.1
+  backdrop:
+  flutter_swiper:
+  cached_network_image:
+  wave:
+  image_picker:
+  http:
+  stripe_payment: ^1.0.11
+
+  progress_dialog: ^1.2.4
+
+  ## FireBase
+  firebase_auth:
+  firebase_core:
+  google_sign_in:
+  cloud_firestore: ^3.1.7
+  firebase_storage: ^10.2.7
+  uuid: ^3.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+
